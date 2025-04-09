@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Profiles</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f0;
+    }
+
+    header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      border-bottom: 5px solid #ffc0cb;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .profile-card {
+      background-color: #fff0f5;
+      border: 2px solid #ffb6c1;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(255, 105, 180, 0.2);
+      overflow: hidden;
+      margin: 20px;
+      width: 270px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .profile-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-bottom: 2px solid #ffb6c1;
+    }
+
+    .profile-card h3 {
+      color: #e91e63;
+      margin: 15px 0 5px;
+    }
+
+    .profile-card p {
+      color: #6b2f43;
+      padding: 0 20px 20px;
+      font-size: 0.95rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Profiles</h1>
+  </header>
+
+  <div class="container">
+    <div class="profile-card">
+      <a href="./resume2.html">
+        <img src="anjali.jpg" alt="Anjali Kawale">
+        <h3>Anjali Kawale</h3>
+        <p>Computer Science Major | C | Code Dodger</p>
+      </a>
+    </div>
+
+    <div class="profile-card">
+      <a href="./resume.html">
+        <img src="yashi.jpg" alt="Yashaswi Shrivastava">
+        <h3>Yashaswi Shrivastava</h3>
+        <p>Computer Science Major | CEO | Founder and Creator of this website</p>
+      </a>
+    </div>
+
+    <div class="profile-card">
+      <a href="./resume3.html">
+        <img src="ritesh.jpg" alt="Ritesh Kumar">
+        <h3>Ritesh Kumar</h3>
+        <p>Computer Science Engineering Major | Logistics</p>
+      </a>
+    </div>
+
+    <div class="profile-card">
+      <a href="./resume4.html">
+      <img src="aadarsh3.jpg" alt="Aadarsh Kumar"></a>
+      <h3>Aadarsh Kumar</h3>
+      <p>Computer Science Major | Ethical Hacker</p>
+    </div>
+  </div>
+</body>
+</html>
